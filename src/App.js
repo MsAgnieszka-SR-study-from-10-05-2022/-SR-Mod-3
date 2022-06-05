@@ -1,8 +1,6 @@
 import React from 'react';
 
-import Button from './components/Button';
-import Input from './components/Input';
-import Textarea from './components/Textarea';
+import { Button, Input, Textarea } from './components/Form';
 
 import './App.css';
 import colors from './components/colors';
@@ -10,12 +8,12 @@ import colors from './components/colors';
 function App() {
   return (
     <div>
-      {/* <Button
+      <Button
       bgColor={colors.bgColorCustom}
       color={colors.textColorCustom}
       >
         Click on me!
-      </Button> */}
+      </Button>
       <Input
       bgColor={colors.bgColorCustom}
       color={colors.textColorCustom}
