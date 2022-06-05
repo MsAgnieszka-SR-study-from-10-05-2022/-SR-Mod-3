@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Button bgColor='gray' labelColor='black'>
-        Click on me! 🍹
+        Click on me!
       </Button>
     </div>
   );

@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons';
+
 Button.defaultProps = {
     bgColor: 'antiquewhite',
     labelColor: 'darkred',
@@ -18,6 +21,7 @@ function Button({ children, bgColor, labelColor }) {
 
     return (
         <button style={buttonStyles}>
+            <FontAwesomeIcon icon={faUserSecret} />
             {children}
         </button>
     );
