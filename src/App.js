@@ -7,7 +7,9 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Button bgColor='gray' labelColor='black' labelTitle='Click on me! 🍹' />
+      <Button bgColor='gray' labelColor='black'>
+        Click on me! 🍹
+      </Button>
     </div>
   );
 };

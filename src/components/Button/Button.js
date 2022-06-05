@@ -5,7 +5,7 @@ Button.defaultProps = {
     labelColor: 'darkred',
   };
 
-function Button({ labelTitle, bgColor, labelColor }) {
+function Button({ children, bgColor, labelColor }) {
     const buttonStyles = {
         padding: "10px 20px",
         backgroundColor: bgColor,
@@ -17,7 +17,9 @@ function Button({ labelTitle, bgColor, labelColor }) {
     };
 
     return (
-        <button style={buttonStyles}>{labelTitle}</button>
+        <button style={buttonStyles}>
+            {children}
+        </button>
     );
 };
 
