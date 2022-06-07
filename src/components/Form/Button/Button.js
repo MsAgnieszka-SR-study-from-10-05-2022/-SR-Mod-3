@@ -3,7 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons';
 
-import colors from '../../colors';
+import colors from 'components/colors';
 
 Button.defaultProps = {
     bgColor: colors.bgColorDefault,
