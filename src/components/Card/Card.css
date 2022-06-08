@@ -1,0 +1,36 @@
+.card__header .card__header-title {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.card__header .card__header-date {
+    font-size: 14px;
+}
+
+.card__img {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card__icons {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.card__icon-social {
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.card__icon-show-more {
+    text-align: end;
+    width: 80vw;
+    transition: transform 0.3s;
+}
+.card__icon-show-more svg {
+    padding: 10px 15px;
+    cursor: pointer;
+}
